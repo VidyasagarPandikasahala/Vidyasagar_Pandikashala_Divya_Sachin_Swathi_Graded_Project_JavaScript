@@ -1,11 +1,11 @@
 const state = {};
 
 function setValidCredential() {
-  localStorage.setItem("username", "a");
-  localStorage.setItem("password", "a");
+  localStorage.setItem("username", "admin");
+  localStorage.setItem("password", "admin");
 
-  localStorage.setItem("user", "sachin");
-  localStorage.setItem("pass", "sachin");
+  localStorage.setItem("user", "user");
+  localStorage.setItem("pass", "user");
 }
 
 function getValidCredential() {
