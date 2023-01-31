@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Resume Template Reader based on Job" />
+    <meta name="author" content="Vidyasagar, Divya, Sachin, Swathi" />
+    <link rel="stylesheet" href="./resumeTemplate_login_Page.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Resume Template</title>
+  </head>
+
+  <body>
+    <div class="loginPage | bg-color-primary">
+      <form action="" class="login-form">
+        <div class="content-section">
+          <h1
+            class="secondary-heading | fs-secondary-heading fw-primary-heading"
+          >
+            Login Details
+          </h1>
+          <input
+            type="text"
+            name="username"
+            class="username | fs-small fw-regular"
+            id="username"
+            placeholder="User Name"
+          />
+          <input
+            type="password"
+            name="password"
+            class="password | fs-small fw-regular"
+            id="password"
+            placeholder="Password"
+          />
+          <button
+            class="btn-login | fs-regular fw-semi-bold bg-color-secondary"
+          >
+            Login
+          </button>
+          <p class="error-message"></p>
+        </div>
+      </form>
+    </div>
+
+    <script defer src="../Login/controller/login.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "vidyasagar_pandikashala_divya_sachin_swathi_graded_project_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server -o \"./src/Components/resumeTemplate_login_Page.html\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VidyasagarPandikasahala/Vidyasagar_Pandikashala_Divya_Sachin_Swathi_Graded_Project_JavaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VidyasagarPandikasahala/Vidyasagar_Pandikashala_Divya_Sachin_Swathi_Graded_Project_JavaScript/issues"
+  },
+  "homepage": "https://github.com/VidyasagarPandikasahala/Vidyasagar_Pandikashala_Divya_Sachin_Swathi_Graded_Project_JavaScript#readme"
+}
