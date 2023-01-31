@@ -4,8 +4,8 @@ function setValidCredential() {
   localStorage.setItem("username", "admin");
   localStorage.setItem("password", "admin");
 
-  localStorage.setItem("user", "user");
-  localStorage.setItem("pass", "user");
+  localStorage.setItem("user", "username");
+  localStorage.setItem("pass", "username");
 }
 
 function getValidCredential() {
